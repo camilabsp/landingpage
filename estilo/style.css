@@ -69,11 +69,6 @@ main > section#texto > h1 {
     text-align: center;
 }
 
-main > section#texto > p {
-    padding: 10px;
-    text-align: justify;
-}
-
 footer > p {
     text-align: center;
     font-size: 0.9em;
