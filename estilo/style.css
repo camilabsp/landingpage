@@ -2,7 +2,54 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     background-image: linear-gradient(to right,rgb(209, 160, 209),rgb(197, 123, 133));
     font-family: 'Oxygen', sans-serif;
+}
+
+nav > section#links {
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    margin-top: 2vh;
+    margin-left: 55vw;
+}
+
+nav > section#links > a {
+    color: black;
+    text-decoration: none;
+    padding: 10px; 
+}
+
+nav > section#links > a:hover {
+    color: rgb(184, 21, 184);
+    background-color: pink;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+nav > section#botao {
+    display: inline-block;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+nav > section#botao > a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav section#botao > a:hover {
+    color: rgb(184, 21, 184);
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
 }
