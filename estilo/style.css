@@ -53,3 +53,23 @@ nav section#botao > a:hover {
     border-radius: 10px;
     font-weight: bold;
 }
+
+main > section#texto {
+    display: block;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 400px;
+    padding: 10px;
+}
+
+main > section#texto > h1 {
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main > section#texto > p {
+    padding: 10px;
+    text-align: justify;
+}
