@@ -73,3 +73,19 @@ main > section#texto > p {
     padding: 10px;
     text-align: justify;
 }
+
+footer > p {
+    text-align: center;
+    font-size: 0.9em;
+}
+
+footer > p > em > a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer > p > em > a:hover {
+    background-color: white;
+    color: rgb(184, 21, 184)
+}
