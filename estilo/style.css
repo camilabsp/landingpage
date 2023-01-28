@@ -82,8 +82,11 @@ main > section#texto > p {
 }
 
 footer > p {
+    display: block;
+    padding-top: 25vh;
     text-align: center;
-    font-size: 0.9em;
+    font-size: 0.8em;
+    
 }
 
 footer > p > em > a {
