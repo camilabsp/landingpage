@@ -57,19 +57,16 @@ nav section#botao > a:hover {
     font-weight: bold;
 }
 
-main > section#texto {
+main > section#imagem {
     display: block;
-    position: relative;
-    margin-top: 100px;
-    margin-left: 50px;
-    width: 400px;
-    padding: 10px;
-}
+    background-image: url(../imagens/sololearn.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+    margin-top: 10vh;
+    margin-left: 34vw;
 
-main > section#texto > h1 {
-    color: white;
-    padding: 20px;
-    text-align: center;
 }
 
 footer > p {
