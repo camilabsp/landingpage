@@ -64,21 +64,22 @@ main > section#imagem {
     background-size: contain;
     width: 150px;
     height: 150px;
-    margin-top: 10vh;
-    margin-left: 34vw;
+    margin-top: 8vh;
+    margin-left: 35vw;
 }
 
 main > section#texto > h1 {
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 8px;
 }
 
 main > section#texto > p {
     text-align: justify;
+    font-size: 0.9em;
     margin-right: 30px;
     margin-left: 30px;
-    padding: 10px;
+    padding: 8px;
 }
 
 footer > p {
