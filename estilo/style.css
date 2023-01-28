@@ -23,6 +23,7 @@ nav > section#links {
 
 nav > section#links > a {
     color: black;
+    font-size: 0.9em;
     text-decoration: none;
     padding: 5px; 
 }
@@ -46,6 +47,7 @@ nav > section#botao {
 
 nav > section#botao > a {
     color: black;
+    font-size: 0.9em;
     padding: 10px;
     text-decoration: none;
 }
@@ -65,7 +67,7 @@ main > section#imagem {
     width: 150px;
     height: 150px;
     margin-top: 8vh;
-    margin-left: 38vw;
+    margin-left: 36vw;
 }
 
 main > section#texto > h1 {
