@@ -65,7 +65,7 @@ main > section#imagem {
     width: 150px;
     height: 150px;
     margin-top: 8vh;
-    margin-left: 35vw;
+    margin-left: 38vw;
 }
 
 main > section#texto > h1 {
@@ -84,7 +84,7 @@ main > section#texto > p {
 
 footer > p {
     display: block;
-    padding-top: 27vh;
+    padding-top: 33vh;
     text-align: center;
     font-size: 0.8em;  
 }
