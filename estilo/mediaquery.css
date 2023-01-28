@@ -40,7 +40,7 @@
 
     footer > p {
         display: block;
-        padding-top: 25vh;
+        padding-top: 30vh;
         text-align: center;
         font-size: 0.8em;  
     }
@@ -53,7 +53,7 @@
         display: inline-block;
         position: fixed;
         margin-top: 3vh;
-        margin-left: 65vw;
+        margin-left: 71vw;
         padding: 10px;
     }
 
@@ -73,7 +73,7 @@
         background-size: contain;
         width: 150px;
         height: 150px;
-        margin-top: 13vh;
+        margin-top: 11vh;
         margin-left: 45vw;
     }
 
@@ -87,7 +87,7 @@
 
     footer > p {
         display: block;
-        padding-top: 30vh;
+        padding-top: 32vh;
         text-align: center;
         font-size: 0.8em;  
     }
