@@ -5,8 +5,8 @@
     nav > section#links {
         display: inline-block;
         position: fixed;
-        margin-top: 2vh;
-        margin-left: 48vw;
+        margin-top: 5%;
+        margin-left: 20%;
         padding: 10px;
     }
 
@@ -15,8 +15,8 @@
         padding: 10px;
         background-color: white;
         border-radius: 10px;
-        margin-top: 2vh;
-        margin-left: 85vw;
+        margin-top: 5%;
+        margin-left: 70%;
     }
 
     main > section#imagem {
@@ -52,8 +52,8 @@
     nav > section#links {
         display: inline-block;
         position: fixed;
-        margin-top: 3vh;
-        margin-left: 71vw;
+        margin-top: 2%;
+        margin-left: 69%;
         padding: 10px;
     }
 
@@ -62,34 +62,21 @@
         padding: 10px;
         background-color: white;
         border-radius: 10px;
-        margin-top: 3vh;
-        margin-left: 90vw;
+        margin-top: 2%;
+        margin-left: 85%;
     }
 
-    main > section#imagem {
-        display: block;
-        background-image: url(../imagens/sololearn.png);
-        background-repeat: no-repeat;
-        background-size: contain;
-        width: 150px;
-        height: 150px;
-        margin-top: 11vh;
-        margin-left: 45vw;
+    footer > div {
+    display: block;
+    padding: 5px;
+    text-align: center;
+    font-size: 0.8em; 
+    margin-top: 39%; 
     }
 
-    main > section#texto > p {
-        text-align: justify;
-        font-size: 0.9em;
-        margin-right: 370px;
-        margin-left: 370px;
-        padding: 10px;
-    }
-
-    footer > p {
-        display: block;
-        padding-top: 32vh;
-        text-align: center;
-        font-size: 0.8em;  
+    footer > div > p > em > a {
+        color: black;
+        text-decoration: none;
     }
     
 }

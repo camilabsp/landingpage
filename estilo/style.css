@@ -15,9 +15,9 @@ body {
 nav > section#links {
     display: inline-block;
     position: fixed;
-    margin-top: 1vh;
-    margin-left: 3vw;
-    padding: 9px;
+    margin-top: 5%;
+    margin-left: 10%;
+    padding: 10px;
     
 }
 
@@ -41,8 +41,8 @@ nav > section#botao {
     padding: 9px;
     background-color: white;
     border-radius: 10px;
-    margin-top: 1vh;
-    margin-left: 75vw;
+    margin-top: 5%;
+    margin-left: 70%;
 }
 
 nav > section#botao > a {
@@ -54,27 +54,11 @@ nav > section#botao > a {
 
 nav section#botao > a:hover {
     color: rgb(184, 21, 184);
-    padding: 15px;
+    padding: 10px;
     border-radius: 10px;
     font-weight: bold;
 }
 
-main > section#imagem {
-    display: block;
-    background-image: url(../imagens/sololearn.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 150px;
-    height: 150px;
-    margin-top: 8vh;
-    margin-left: 30vw;
-}
-
-main > section#texto > h1 {
-    color: white;
-    text-align: center;
-    padding: 8px;
-}
 
 main > section#texto > p {
     text-align: justify;
@@ -84,20 +68,40 @@ main > section#texto > p {
     padding: 8px;
 }
 
-footer > p {
+footer > div {
     display: block;
-    padding-top: 34vh;
+    padding: 5px;
     text-align: center;
-    font-size: 0.8em;  
+    font-size: 0.8em; 
+    margin-top: 90%; 
 }
 
-footer > p > em > a {
+main > div#texto {
+    display: block;
+    position: relative;
+    margin-left: 10%;
+    margin-top:60%;
+    margin-right: 10%;
+}
+
+main > div#texto > h1 {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+main > div#texto > p {
+    text-align: justify;
+}
+
+footer > div > p > em > a {
     color: black;
-    font-weight: bold;
     text-decoration: none;
 }
 
-footer > p > em > a:hover {
+footer > div > p em > a:hover {
     background-color: white;
-    color: rgb(184, 21, 184)
+    color: rgb(184, 21, 184);
+    font-weight: bold;
+    
 }
