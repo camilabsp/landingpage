@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -12,96 +14,30 @@ body {
     font-family: 'Oxygen', sans-serif;
 }
 
-nav > section#links {
+section#links > ul > li {
     display: inline-block;
-    position: fixed;
-    margin-top: 5%;
-    margin-left: 10%;
+    margin-top: 2%;
     padding: 10px;
+    background-color: white;
+}
+
+section#botao {
+    display: block;
+    background-color: white;
     
 }
 
-nav > section#links > a {
-    color: black;
-    font-size: 0.9em;
-    text-decoration: none;
-    padding: 5px; 
-}
-
-nav > section#links > a:hover {
-    color: rgb(184, 21, 184);
-    background-color: pink;
-    padding: 10px;
-    border-radius: 10px;
-    font-weight: bold;
-}
-
-nav > section#botao {
-    display: inline-block;
-    padding: 9px;
+section#foto {
+    width: 200px;
+    height: 200px;
+    background-image: url(../imagens/imagem.png);
     background-color: white;
-    border-radius: 10px;
-    margin-top: 5%;
-    margin-left: 70%;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
-nav > section#botao > a {
-    color: black;
-    font-size: 0.9em;
-    padding: 10px;
-    text-decoration: none;
-}
-
-nav section#botao > a:hover {
-    color: rgb(184, 21, 184);
-    padding: 10px;
-    border-radius: 10px;
-    font-weight: bold;
-}
-
-
-main > section#texto > p {
-    text-align: justify;
-    font-size: 0.9em;
-    margin-right: 30px;
-    margin-left: 30px;
-    padding: 8px;
-}
-
-footer > div {
-    display: block;
-    padding: 5px;
-    text-align: center;
-    font-size: 0.8em; 
-    margin-top: 90%; 
-}
-
-main > div#texto {
-    display: block;
-    position: relative;
-    margin-left: 10%;
-    margin-top:60%;
-    margin-right: 10%;
-}
-
-main > div#texto > h1 {
+h1 {
     color: white;
-    text-align: center;
-    padding: 10px;
+    font-family: 'Cedarville Cursive', cursive;
 }
 
-main > div#texto > p {
-    text-align: justify;
-}
-
-footer > div > p > em > a {
-    color: black;
-    text-decoration: none;
-}
-
-footer > div > p em > a:hover {
-    background-color: white;
-    color: rgb(184, 21, 184);
-    font-weight: bold;
-    
-}
