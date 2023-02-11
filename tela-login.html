@@ -4,20 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilo/style-login.css">
     <title>Login</title>
 </head>
 <body>
     <main class="conteiner">
         <div id="texto">
-            <h1>Login</h1>
+            <h1>Faça parte do nosso time!</h1>
+            <img src="imagens/astronauta.png" alt="astronauta">
         </div>
-        
-        <div id="imagem">
-            <img src="imagens/astronauta.png" alt="astronauta" height="60%" width="60%" >
+
+        </div>
+        <div id="formulario">
+            <h1> Login </h1>
+            <form action="login.php" method="post">
+                <div id="email">
+                    <span class="material-icons"> person </span>
+                    <input type="email" name="login" id="ilogin" placeholder="Digite seu email" required maxlength="40">
+                </div>
+                <div id="senha">
+                    <span class="material-icons"> lock </span>
+                    <input type="password" name="senha" id="isenha" placeholder="Senha" required minlength="8">
+                </div>
+                <div id="botao">
+                    <a href="#">Entrar</a>
+                </div>
+            </form>
         </div>
     </main>
-    
     <footer>
 
     </footer>
