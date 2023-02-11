@@ -21,7 +21,7 @@ body {
     align-items: center;
     background-color: #53387e;
     border-radius: 50px;
-    margin: 4% 2%;
+    margin: 5% 3%;
     height: 100%;
     font-size: 0.8em;
 }
@@ -47,39 +47,49 @@ img{
     padding: 10px;
     border-radius: 10px;
     background-color:white;
+    width: 30%;
+    
 }
 
 #formulario > h1 {
-    color:rgb(209, 160, 209);
+    color:rgb(197, 123, 133);
     text-align: center;
-    padding: 5%;
+    padding: 3%;
 }
 
 form {
     margin: 5%; 
+    
 }
 
 #email {
-    display: inline-block;
-    
+    display: inline-block; 
 }
 
 #senha {
     display: inline-block;
-    position: relative;
-    
     padding-bottom: 10px;
-    
+ 
+}
+
+input {
+    padding: 8px;
+}
+
+.material-icons {
+    color:rgb(197, 123, 133);
+    padding-left: 10px;
 }
 
 #botao {
     display: block;
     padding: 10px;
-    background-color:rgb(209, 160, 209);
+    background-color:rgb(197, 123, 133);
     border-radius: 5px;
     text-align: center;
     font-size: 1.5em;
     font-weight: bold;
+    width: 92%;
 }
 
 a {
