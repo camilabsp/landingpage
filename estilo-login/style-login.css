@@ -16,50 +16,57 @@ body {
 
 .conteiner {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #53387e;
-    border-radius: 50px;
-    margin: 5% 3%;
-    height: 100%;
-    font-size: 0.8em;
+    border-radius: 30px;
+    margin: 5%;
+    max-height: 100%;
 }
 
 #texto {
     display: block;
     color: white;
     position: relative;
-    margin: 5%;
-    padding: 15px;
+    margin: 2%;
+    padding: 10px; 
+}
+
+#texto > h1 {
     text-align: center;
+    font-size: 1.5em;
 }
 
 img{
-    display: block;
-    padding: 15px;
-    height: 320px;
-    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+    padding: 2%;
+    max-width: 75%;
+    
 }
 
 #formulario {
-    display: block;
-    padding: 10px;
-    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px 0px 10px 10px;
     background-color:white;
-    width: 30%;
-    
+    padding: 3%;
+    max-width: 100%;  
 }
 
 #formulario > h1 {
     color:rgb(197, 123, 133);
     text-align: center;
-    padding: 3%;
+    padding: 2%;
 }
 
 form {
-    margin: 5%; 
-    
+    margin: 7%; 
+    padding: 3%;   
 }
 
 #email {
@@ -68,7 +75,7 @@ form {
 
 #senha {
     display: inline-block;
-    padding-bottom: 10px;
+    padding-bottom: 9%;
  
 }
 
@@ -89,7 +96,7 @@ input {
     text-align: center;
     font-size: 1.5em;
     font-weight: bold;
-    width: 92%;
+    max-width: 100%;
 }
 
 a {
