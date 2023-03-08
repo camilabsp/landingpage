@@ -15,7 +15,38 @@ body {
 }
 
 h1 {
-    color: whitesmoke;
+    color: rgb(209, 160, 209);
     text-align: center;
-    margin-top: 20%;
+    padding: 10px;
+    font-size: 1.5em;
 }
+
+form{
+    display: block;
+    background-color: whitesmoke;
+    margin: auto;
+    margin-top: 10%;
+    padding: 10px;
+    max-width: 80%;
+}
+
+p {
+    font-weight: Normal;
+    color: rgb(184, 95, 184);
+}
+div.botao{ 
+    text-align: center;
+}
+
+#botao{
+    
+    width: 100px;
+    height: 40px;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: rgb(209, 160, 209);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+

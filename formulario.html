@@ -8,6 +8,29 @@
     <title>Formulário</title>
 </head>
 <body>
-    <h1>Página em Construção!</h1>
+    
+    <form action="formulario.php" method="get">
+        <h1>Cadastro de Devs</h1>
+        <p><label for="nome">Nome: </label><input type="text" name="nome" id="nome"></p>
+        <p><label for="sobre">Sobrenome: </label><input type="text" name="sobrenome" id="sobre"></p>
+        <p><label for="email">Email: </label><input type="text" name="email" id="email"> </p>
+        <p><label for="aplicacao">Habilidade no desenvolvimento: </label></p>
+        <p><input type="radio" name="aplicacao" id="aplicacao">Front-End</p>
+        <p><input type="radio" name="aplicacao" id="aplicacao">Back-End</p>
+        <p><input type="radio" name="aplicacao" id="aplicacao">Fullstack</p>
+        <p>Nível:</p>
+        <p><input type="radio" name="junior" id="junior">Junior</p>
+        <p><input type="radio" name="pleno" id="pleno">Pleno</p>
+        <p><input type="radio" name="senior" id="senior">Senior</p>
+        <p>Habilidades:</p>
+        <p><input type="checkbox" name="html" id="html">HTML <input type="checkbox" name="css" id="css">CSS <input type="checkbox" name="javascript" id="JavaScript">JavaScript <input type="checkbox" name="php" id="php">PHP <input type="checkbox" name="c" id="c">C# <input type="checkbox" name="python" id="python">Python <input type="checkbox" name="java" id="java">Java</p>
+        <p>Conte-nos mais sobre você: <textarea name="sobre" id="sobre" cols="30" rows="10"></textarea></p>
+
+        <div class="botao">
+            <input type="button" value="Concluído" id="botao">
+        </div>
+        
+        
+    </form>
 </body>
 </html>
